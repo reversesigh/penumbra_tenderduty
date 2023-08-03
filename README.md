@@ -3,6 +3,7 @@
 Take your public validator address and parse it with `gaiad`
 
 `gaiad keys parse 3434A0A688C98FA9052A907744C058589951598C`  
+  
 ```formats:  
 - cosmosvalcons1xs62pf5gex86jpf2jpm5fszctzv4zkvvkwajw9```
 
