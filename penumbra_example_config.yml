@@ -1,0 +1,29 @@
+chain_id: penumbra-testnet-ganymede
+valoper_address: cosmosvalcons  
+public_fallback: false
+
+alerts:
+  stalled_enabled: yes
+  stalled_minutes: 15
+
+  consecutive_enabled: yes
+  consecutive_missed: 25
+  consecutive_priority: critical
+
+  percentage_enabled: yes
+  percentage_missed: 25
+  percentage_priority: warning
+
+  alert_if_inactive: yes
+  alert_if_no_servers: yes
+
+  pagerduty:
+    enabled: false
+    api_key: '' # uses default if blank
+
+  discord:
+    enabled: yes
+
+nodes:
+  - url: http://ip:port
+    alert_if_down: yes
